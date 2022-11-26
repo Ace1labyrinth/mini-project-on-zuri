@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0px;
+    
+}
+html, body {
+    background-color: rgb(43, 31, 31);
+    min-height: 100vh;
+    max-height: 100vh;
+    
+}
+.mainContainer {
+    background-color: rgb(85, 65, 65);
+    padding: 50px;
+    
+}
+.container1 {
+    /*background-image: url(./web1.jpg);*/
+    /*background-size: 100%;*/
+    /*background-repeat: no-repeat;*/
+    background-color: rgb(54, 31, 31);
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+h1 {
+    color: whitesmoke;
+}
+p {
+    color: rgb(16, 115, 196);
+    font-size: 20px;
+    
+}
+p:hover {
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.container2 {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+button {
+    cursor: pointer;
+    padding: 7px;
+    font-weight: bolder;
+    border-radius: 7px;
+}
+#btn1 {
+    background-color: slategrey;
+    color: honeydew;
+    width: 150px;
+}
+#btn1:hover{
+    background-color: honeydew;
+    color: slategray;
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 30px;
+}
+#btn2 {
+    width: 100%;
+    color: honeydew;
+    background-color: slategray;
+}
+#btn2:hover {
+    background-color: honeydew;
+    color: slategray;
+    transition: 0.3s;
+    border-radius: 30px;
+    padding: 10px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(68, 56, 56, 0.541);
+    width: 100%;
+    text-align: center;
+    padding: 5vh;
+}
